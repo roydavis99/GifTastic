@@ -1,8 +1,8 @@
 
 
 
-var url = "https://api.giphy.com/v1/gifs/search?q="
-var key = "&api_key=8KSoVS54pdT0M05ckoFurarYQetJyoap"
+url = "https://api.giphy.com/v1/gifs/search?q=";
+key = "&api_key=8KSoVS54pdT0M05ckoFurarYQetJyoap";
 
 function APIGiffyCall(gifSearch) {
     var fullURL = url + gifSearch + key;
